@@ -1,0 +1,136 @@
+.sortable-cols th {
+  position: relative;
+}
+
+th .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  display: inline-block;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+th .arrow-down {
+  border-top: 10px solid black;
+}
+
+th .arrow-up {
+  border-bottom: 10px solid black;
+}
+
+/* body {
+  margin: 0 75px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 48px;
+  margin: 60px 0 42px;
+}
+
+table {
+  margin: 25px 0;
+  width: 100%;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+th, td {
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
+
+tfoot td:first-child {
+  text-align: right;
+}
+
+tr:hover {
+  background: lightgrey;
+}
+
+td:focus {
+  outline: 1px dashed green;
+}
+
+td:active {
+  background: gray;
+  color: white
+}
+
+tbody tr:nth-child(1) td:last-child,
+tbody tr:nth-child(6) td:last-child,
+tbody tr:nth-child(13) td:last-child {
+  color: #FFF;
+  background-color: #000;
+}
+
+tbody tr:nth-child(2) td:last-child {
+  color: #FFF;
+  background-color: #262626;
+}
+
+tbody tr:nth-child(3) td:last-child,
+tbody tr:nth-child(9) td:last-child,
+tbody tr:nth-child(10) td:last-child {
+  color: #FFF;
+  background-color: #00F;
+}
+
+tbody tr:nth-child(4) td:last-child {
+  color: #FFF;
+  background-color: #F43AEE;
+}
+
+tbody tr:nth-child(5) td:last-child {
+  color: #FFF;
+  background-color: #132999;
+}
+
+tbody tr:nth-child(7) td:last-child {
+  background-color: #ff6347;
+}
+
+tbody tr:nth-child(8) td:last-child {
+  color: #FFF;
+  background-color: #4A0000;
+}
+
+tbody tr:nth-child(11) td:last-child {
+  background-color: #D50000;
+}
+
+tbody tr:nth-child(12) td:last-child {
+  background-color: #28912F;
+}
+
+tbody tr:nth-child(14) td:last-child {
+  color: #FFF;
+  background-color: #800080;
+}
+
+tbody tr:nth-child(15) td:last-child {
+  background-color: #87CEEB;
+}
+
+tfoot tr:last-child td:last-child {
+  color: #FFF;
+  background-color: #4C276F;
+}
+
+span.sort-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid red;
+    display: inline-block;
+} */
